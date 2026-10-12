@@ -34,6 +34,8 @@ terraform.rc
 .npmrc.local
 
 # ---------- Local runtime data (docker compose volumes, scratch) ----------
+# Local symlink to the separate Guichet repository.
+/guichet
 .local/
 out/
 tmp/

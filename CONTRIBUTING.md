@@ -18,6 +18,12 @@ agents leave their changes uncommitted. Prefer small PRs and squash merges.
 Use the [PR template](.github/pull_request_template.md) to explain the result and
 provide verification evidence. Explain the purpose of each added dependency.
 
+For automatic local commit signing, follow
+[GitHub's signing guide](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
+Keep signing keys and machine-specific Git configuration outside the repository.
+After pushing a signed commit, check its **Verified** badge on GitHub to confirm
+that GitHub accepted the signature.
+
 ## Boundaries
 
 Carlingue publishes generic platform packages. Guichet owns lending-domain code.

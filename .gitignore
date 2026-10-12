@@ -123,6 +123,7 @@ Thumbs.db
 *~
 
 # ---------- Local AI coding agents ----------
+/.codex/
 .claude/settings.local.json
 .aider*
 *.local.md
